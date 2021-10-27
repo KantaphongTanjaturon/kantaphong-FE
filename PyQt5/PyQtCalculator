@@ -18,11 +18,8 @@ class Window(QMainWindow):
         self.label.setWordWrap(True)
         self.label.setStyleSheet("QLabel" "{" "border : 2px solid black;"
                                  "Background : white;" "}")
-        # set alignment to the label
         self.label.setAlignment(Qt.AlignRight)
-        # set font for label text
         self.label.setFont(QFont('Arial', 25))
-        # create buttons 
         one = QPushButton("1", self)
         two = QPushButton("2", self)
         three = QPushButton("3", self)
